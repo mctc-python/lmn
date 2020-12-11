@@ -13,7 +13,8 @@
 
   <h2>Note Search</h2>
 
-  <form action="{% url 'latest_notes' %}">
+  <!-- when this button is clicked, go to the notes_search view -->
+  <form action="{% url 'notes_search' %}">
     {{ form }}
     <input type='submit' value='Search'/>
   </form>
